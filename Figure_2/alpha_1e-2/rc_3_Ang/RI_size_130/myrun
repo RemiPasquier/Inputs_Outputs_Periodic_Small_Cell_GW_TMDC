@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -t 24:00:00
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=16
+#SBATCH -N 6
+#SBATCH -J "r2c34_WSe2_SZV"
+#SBATCH --account=hpc-prf-optgw
+#SBATCH -p largemem
+##SBATCH -q express
+
+export OMP_NUM_THREADS=16
+export OMP_PLACES=cores
+export OMP_PROC_BIND=true
+
+module purge
+module load chem/CP2K/2024.1-foss-2023b-gcc-openmpi-openblas-libgrpp
+
+rm cp2k.out
+srun /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/newcp2k/cp2k/exe/local/cp2k.psmp *inp >> cp2k.out
