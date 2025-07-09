@@ -1,5 +1,0 @@
-Unloading intel-oneapi-compilers/2021.4.0
-  Unloading dependent: intel-mpi/2019-intel
-INFO: For the correct use of python with EAR, it is necessary to export the following environment variable:
-      export SLURM_EAR_LOAD_MPI_VERSION="intel"    #for Intel MPI
-      export SLURM_EAR_LOAD_MPI_VERSION="open mpi" #for Open MPI
