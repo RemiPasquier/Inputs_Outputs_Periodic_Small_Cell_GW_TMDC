@@ -1,7 +1,7 @@
 import os
 
 # Define which filenames or extensions to keep
-KEEP_FILES = {"GW.inp", "cp2k.out","myrun"}
+KEEP_FILES = {"GW.inp", "cp2k.out","bandstructure_SCF_and_G0W0","bandstructure_SCF_and_G0W0_plus_SOC"}
 
 def is_deepest_leaf_dir(path):
     """Return True if a directory has no subdirectories."""
@@ -32,7 +32,7 @@ def find_and_clean_deepest_leaves(root_path):
 
         # Clean only if it's a leaf (no subdirectories)
         if not dirnames:
-            preview_leaf_directory(dirpath)
+            clean_directory(dirpath)
 
 def preview_leaf_directory(path):
     """Print contents of the leaf directory."""
