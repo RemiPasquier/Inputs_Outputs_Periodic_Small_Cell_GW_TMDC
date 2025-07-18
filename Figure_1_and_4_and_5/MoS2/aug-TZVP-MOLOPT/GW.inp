@@ -73,29 +73,28 @@
     &END CELL
     
     &KIND S
-      BASIS_SET ORB aug-TZVP-MOLOPT-GTH-tier-2
-      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH-tier-2_N_RI_062_s_p_d_f_g_h_i_6_3_3_2_2_0_0_error_7.4e-04
+      BASIS_SET ORB aug-TZVP-MOLOPT-GTH
+      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH_N_RI_064_s_p_d_f_g_h_i_5_4_3_2_2_0_0_error_6.2e-04
       POTENTIAL        GTH-PBE-q6
     &END KIND
 
     &KIND Se
-      BASIS_SET ORB aug-TZVP-MOLOPT-GTH-tier-2
-      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH-tier-2_N_RI_066_s_p_d_f_g_h_i_5_4_3_2_1_1_0_error_2.5e-04
+      BASIS_SET ORB aug-TZVP-MOLOPT-GTH
+      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH_N_RI_070_s_p_d_f_g_h_i_6_5_3_2_1_1_0_error_2.3e-04
       POTENTIAL        GTH-PBE-q6
     &END KIND
 
     &KIND Mo
-      BASIS_SET ORB  aug-TZVP-MOLOPT-GTH-tier-2
-      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH-tier-2_N_RI_108_s_p_d_f_g_h_i_7_5_4_4_3_1_0_error_9.0e-04
+      BASIS_SET ORB aug-TZVP-MOLOPT-GTH
+      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH_N_RI_134_s_p_d_f_g_h_i_6_5_5_4_3_3_0_error_6.4e-04
       POTENTIAL        GTH-PBE-q14
     &END KIND
 
     &KIND W
-      BASIS_SET ORB aug-TZVP-MOLOPT-GTH-tier-2
-      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH-tier-2_N_RI_113_s_p_d_f_g_h_i_6_5_4_3_3_1_1_error_7.9e-04
+      BASIS_SET ORB aug-TZVP-MOLOPT-GTH
+      BASIS_SET RI_AUX RI_aug-TZVP-MOLOPT-GTH_N_RI_119_s_p_d_f_g_h_i_6_5_5_5_3_1_0_error_7.9e-04
       POTENTIAL        GTH-PBE-q14
     &END KIND
-
 
     &COORD
 Mo       0.00000000       0.00000000       9.06355632

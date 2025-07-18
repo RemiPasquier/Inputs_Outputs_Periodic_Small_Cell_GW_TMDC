@@ -78,27 +78,27 @@
       PERIODIC XY
     &END CELL
     
-  &KIND S
+&KIND S
       BASIS_SET ORB SZV-MOLOPT-GTH
-      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-tier-2_N_RI_028_s_p_d_f_g_h_i_5_2_2_1_0_0_0_error_7.2e-05
+      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-SR_N_RI_030_s_p_d_f_g_h_i_4_3_2_1_0_0_0_error_4.8e-05
       POTENTIAL        GTH-PBE-q6
     &END KIND
 
     &KIND Se
       BASIS_SET ORB SZV-MOLOPT-SR-GTH
-      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-tier-2_N_RI_028_s_p_d_f_g_h_i_5_2_2_1_0_0_0_error_2.2e-05
+      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH_N_RI_027_s_p_d_f_g_h_i_4_2_2_1_0_0_0_error_2.2e-05
       POTENTIAL        GTH-PBE-q6
     &END KIND
 
     &KIND Mo
-      BASIS_SET ORB  SZV-MOLOPT-SR-GTH
-      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-tier-2_N_RI_072_s_p_d_f_g_h_i_7_3_3_3_1_1_0_error_8.4e-04
+      BASIS_SET ORB SZV-MOLOPT-SR-GTH
+      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-SR_N_RI_071_s_p_d_f_g_h_i_6_4_2_2_2_1_0_error_4.7e-04
       POTENTIAL        GTH-PBE-q14
     &END KIND
 
     &KIND W
       BASIS_SET ORB SZV-MOLOPT-SR-GTH
-      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH-tier-2_N_RI_064_s_p_d_f_g_h_i_6_3_3_2_1_1_0_error_4.4e-04
+      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH_N_RI_076_s_p_d_f_g_h_i_6_4_3_2_2_1_0_error_1.2e-04
       POTENTIAL        GTH-PBE-q14
     &END KIND
 
